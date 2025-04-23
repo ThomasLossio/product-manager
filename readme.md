@@ -14,6 +14,14 @@ A simple product and category registration app built with **Delphi 12.1 Communit
 
 ## 🖼️ Screenshot
 
+### Main Screen
+![image](https://github.com/user-attachments/assets/afe15104-eb64-4cbd-8a01-0a527b8e4ba8)
+
+### Products
+![image](https://github.com/user-attachments/assets/5e8ff3ee-7c7c-4e6d-bb79-20c25d4afc63)
+
+### Categories
+![image](https://github.com/user-attachments/assets/d3fe8c66-7fcf-46c9-8342-2ef8fa2f0a80)
 
 ## 🚀 How to Run
 1. Open the project in **Delphi 12.1 Community Edition**
