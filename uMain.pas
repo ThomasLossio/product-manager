@@ -11,9 +11,10 @@ type
     Panel1: TPanel;
     btnOpenProducts: TButton;
     btnOpenCategories: TButton;
-    Button3: TButton;
-    procedure Button3Click(Sender: TObject);
+    btnExit: TButton;
+    procedure btnExitClick(Sender: TObject);
     procedure btnOpenProductsClick(Sender: TObject);
+    procedure btnOpenCategoriesClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,7 +28,14 @@ implementation
 
 {$R *.dfm}
 
-uses uProducts;
+uses uProducts, uCategories;
+
+procedure TfrmMain.btnOpenCategoriesClick(Sender: TObject);
+begin
+  frmCategories := TfrmCategories.Create(Self);
+  frmCategories.ShowModal;
+  frmCategories.Free;
+end;
 
 procedure TfrmMain.btnOpenProductsClick(Sender: TObject);
 begin
@@ -36,7 +44,7 @@ begin
   frmProductRegistration.Free;
 end;
 
-procedure TfrmMain.Button3Click(Sender: TObject);
+procedure TfrmMain.btnExitClick(Sender: TObject);
 begin
   Close;
 end;

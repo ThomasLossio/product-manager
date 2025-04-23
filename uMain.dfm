@@ -36,14 +36,15 @@ object frmMain: TfrmMain
     Height = 41
     Caption = 'Categorias'
     TabOrder = 2
+    OnClick = btnOpenCategoriesClick
   end
-  object Button3: TButton
+  object btnExit: TButton
     Left = 92
     Top = 219
     Width = 235
     Height = 41
     Caption = 'Sair'
     TabOrder = 3
-    OnClick = Button3Click
+    OnClick = btnExitClick
   end
 end

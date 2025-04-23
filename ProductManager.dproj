@@ -131,6 +131,15 @@
             <Form>frmMain</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="uCategories.pas">
+            <Form>frmCategories</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uDMMain.pas">
+            <Form>DMMain</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
